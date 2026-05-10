@@ -44,18 +44,23 @@ D_base 不是知识量。是你读完一篇论文，带走的是**方法论**还
 ## Quick Install
 
 ```bash
-git clone https://github.com/Qiang-Xuu/Deep-Research.git ~/.claude/skills/Deep-Research && echo "Restart Claude Code to load skills"
+git clone https://github.com/Qiang-Xuu/Deep-Research.git && \
+  cp -r Deep-Research/skills/xq-* ~/.claude/skills/ && \
+  rm -rf Deep-Research && \
+  echo "Restart Claude Code to load skills"
 ```
 
 Or step by step:
 
 ```bash
 mkdir -p ~/.claude/skills
-git clone https://github.com/Qiang-Xuu/Deep-Research.git ~/.claude/skills/Deep-Research
+git clone https://github.com/Qiang-Xuu/Deep-Research.git
+cp -r Deep-Research/skills/xq-* ~/.claude/skills/
 
 # (Optional) Install xq-card dependencies for PNG card generation
-cd ~/.claude/skills/Deep-Research && bash scripts/install.sh
+bash Deep-Research/scripts/install.sh
 
+rm -rf Deep-Research
 # Restart Claude Code
 ```
 

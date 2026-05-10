@@ -6,6 +6,8 @@ description: >-
   specific technical decision. Use when user says "技术评审", "方案评审",
   "设计评审", "review", "架构评审", or wants to explore a technical
   design decision through multi-perspective structured debate.
+user_invocable: true
+version: "1.0.0"
 ---
 
 ## Usage

@@ -1,6 +1,8 @@
 ---
 name: xq-invest
 description: 技术评估，生成一份深度技术评估报告。不做传统技术调研——核心判断是一项新技术/框架/工具是否是一台「秩序创造机器」。Use when user says '技术评估', '评估这个技术', '分析这个框架', '技术选型', 'tech eval', 'evaluate tech', or asks whether a new technology, framework, library, or tool is worth adopting. Also trigger when user references documentation, benchmarks, or architecture descriptions of a technology and asks for analysis.
+user_invocable: true
+version: "1.0.0"
 ---
 
 # 技术评估

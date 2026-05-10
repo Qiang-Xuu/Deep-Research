@@ -1,6 +1,8 @@
 ---
 name: xq-learn
 description: Deep concept anatomist that deconstructs any engineering concept through 8 exploration dimensions (history, mechanism, boundary, comparison, cost, practice, aesthetics, meta-reflection) and compresses insights into an epiphany. Use when user asks to explain, dissect, or deeply understand a technical concept, term, or idea. Triggers on '解剖概念', '概念解剖', 'explain concept', 'learn concept', '/xq-learn'. Produces org-mode output.
+user_invocable: true
+version: "1.0.0"
 ---
 
 ## Usage
