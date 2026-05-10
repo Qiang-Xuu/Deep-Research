@@ -1,6 +1,6 @@
 ---
 name: xq-word
-description: Deep-dive English word mastery tool. Deconstructs a single English word into core semantics and epiphany. Use when user asks to explain/master a specific English word. Supports two modes: general vocabulary (default) and technical jargon (-t). Triggers on '解词', '单词', 'word', 'explain word'. For engineering terms like 'backpressure', 'throttle', 'coherency', 'virtualization', use '-t' flag for technical deep-dive.
+description: "Deep-dive English word mastery tool. Deconstructs a single English word into core semantics and epiphany. Use when user asks to explain/master a specific English word. Supports two modes: general vocabulary (default) and technical jargon (-t). Triggers on '解词', '单词', 'word', 'explain word'. For engineering terms like 'backpressure', 'throttle', 'coherency', 'virtualization', use '-t' flag for technical deep-dive."
 version: "1.1.0"
 user_invocable: true
 ---
