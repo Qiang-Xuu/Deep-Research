@@ -6,7 +6,7 @@
 
 ## 核心洞察
 
-AI 时代的工程产出遵循一个非线性方程：
+AI 时代的工程产出遵循一个非线性方程：有效架构价值（Effective Architectural Value, $V$）
 
 $$
 V(A, D) = \alpha \cdot A \cdot \ln(1 + D_{base}) - \beta \cdot e^{k \cdot \max(0, A - D_{base})}
